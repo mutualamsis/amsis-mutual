@@ -81,15 +81,15 @@ if st.session_state.pagina == "Inicio":
     with col1:
         if st.button("👥 Gestión de Socios"):
             st.session_state.pagina = "Socios"
-            st.experimental_rerun()
+            st.rerun()
     with col2:
         if st.button("📊 Reportes"):
             st.session_state.pagina = "Reportes"
-            st.experimental_rerun()
+            st.rerun()
     with col3:
         if st.button("⚙️ Configuración"):
             st.session_state.pagina = "Configuración"
-            st.experimental_rerun()
+            st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
 
 # ==============================
@@ -211,7 +211,7 @@ elif st.session_state.pagina == "Socios":
     st.markdown("---")
     if st.button("⬅️ Volver al inicio"):
         st.session_state.pagina = "Inicio"
-        st.experimental_rerun()
+        st.rerun()
 
 # ==============================
 # REPORTES
@@ -245,7 +245,7 @@ elif st.session_state.pagina == "Reportes":
     st.markdown("---")
     if st.button("⬅️ Volver al inicio"):
         st.session_state.pagina = "Inicio"
-        st.experimental_rerun()
+        st.rerun()
 
 # ==============================
 # CONFIGURACIÓN
@@ -256,4 +256,5 @@ elif st.session_state.pagina == "Configuración":
     st.info("Aquí podrás agregar opciones de configuración en el futuro, como cambiar logo, colores o exportar datos.")
     if st.button("⬅️ Volver al inicio"):
         st.session_state.pagina = "Inicio"
-        st.experimental_rerun()
+        st.rerun()
+
