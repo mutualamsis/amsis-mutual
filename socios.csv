@@ -1,0 +1,3 @@
+ID,Nombre,Apellido,DNI,Teléfono,Email,SubNombre,SubApellido,SubDNI,SubTeléfono,SubEmail,Fecha Suscripción,Vencimiento,Estado
+1,leonel,almeida,34983697,1138036647,leviatecnico@gmail.com,,,,,,2025-10-14,2025-11-13,Activo
+2,tomas,coto,12345678,112255889966,,,,,,,2025-10-14,2025-11-13,Activo
